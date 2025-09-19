@@ -31,9 +31,9 @@ public class DonateReceiver extends BroadcastReceiver {
     private static final int DONATE_NOTIFICATION_ID = 8989;
     private static final int REQ_ALARM = 7611;
 
-    public static final long COOLDOWN_MIN = 30 * 24 * 60; // Monthly reminder
-    public static final long INITIAL_DELAY_MIN = 30; // 30-minute after first boot
-    public static final long REPEAT_DELAY_MIN = 60; // Repeat after 1 hour if not opened
+    public static final long COOLDOWN_MIN = 5 * 365 * 24 * 60; // 5-year reminder
+    public static final long INITIAL_DELAY_MIN = 5 * 365 * 24 * 60; // 5-years after first boot
+    public static final long REPEAT_DELAY_MIN = 60; // Needed for compatability
 
     private static final String ACTION_DONATE_NUDGE = "com.crdroid.settings.action.DONATE_NUDGE";
  
