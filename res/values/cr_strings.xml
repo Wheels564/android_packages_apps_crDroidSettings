@@ -439,6 +439,10 @@ A small donation helps keep this project alive and improving. You can dismiss th
     <string name="clock_date_position">Date position</string>
     <string name="clock_date_right">Right of time</string>
     <string name="clock_date_left">Left of time</string>
+    <string name="status_bar_clock_period_separator_title">Period separator</string>
+    <string name="status_bar_clock_period_separator_summary">Show the time with a period instead of a colon (10.45 instead of 10:45)</string>
+    <string name="status_bar_clock_bold_title">Bold clock</string>
+    <string name="status_bar_clock_bold_summary">Show the status bar clock in bold text</string>
 
     <!-- Status bar - Battery -->
     <string name="status_bar_battery_style_title">Battery style</string>
@@ -556,6 +560,10 @@ A small donation helps keep this project alive and improving. You can dismiss th
     <!-- Pocket judge -->
     <string name="pocket_judge_title">Pocket detection</string>
     <string name="pocket_judge_summary">Block screen and button inputs when device is in pocket</string>
+
+    <!-- Screen-on memory reclaim -->
+    <string name="screen_on_memory_reclaim_title">Screen-on memory reclaim</string>
+    <string name="screen_on_memory_reclaim_summary">Kill cached background apps shortly after the screen turns on to free memory</string>
 
     <!-- Disable HW keys -->
     <string name="hwkeys_disabled_title">Disable HW keys</string>
